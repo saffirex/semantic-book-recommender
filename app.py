@@ -48,7 +48,7 @@ def load_embedding_model():
 
     
     # Initialize HuggingFace embeddings
-    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2", model_kwargs={'device': 'cuda'} )
+    embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2", model_kwargs={'device': 'cpu'} )
     
     return embeddings
 
