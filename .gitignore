@@ -1,8 +1,7 @@
 ds/books.csv
 ds/*
-!ds/
 !ds/tagged_description.txt
-!ds/cleaned_data_3[books_with_emotions].csv
+!ds/cleaned_data_3\[books_with_emotions\].csv
 env/
 resources/
 
